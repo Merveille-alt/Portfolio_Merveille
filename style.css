@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+p{
+    color: darkblue;
+    font-size: 18px;
+}
+form{
+    justify-content: center;
+    align-items: left;
+    height: 100%;
+}
+.form-container{
+    background-color: rgb(224, 233, 235);
+    padding: 20px 30px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.form-container h2{
+    text-align: center;
+    color: darkcyan;
+}
+.form-container label{
+    display: block;
+    color: rgb(3, 3, 20);
+}
+.form-container input,
+.form-container textarea{
+    width:  100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-container button{
+    background-color: rgba(207, 178, 223, 0.146);
+    color: rgb(42, 15, 123);
+    padding: 10px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
